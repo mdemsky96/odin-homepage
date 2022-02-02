@@ -22,12 +22,13 @@ h1 {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 36px;
 
     font-size: 18px;
     
     margin: 0;
     padding: 0;
+
 }
 .container-hero {
     display: flex;
@@ -35,6 +36,8 @@ ul {
     color: #e5e7eb;
     font-size: 18px;
     padding: 40px 100px;   
+
+    
 }
 
 .hero-title {
@@ -43,6 +46,9 @@ ul {
     color: #f9faf8;
     padding-bottom: 16px;
     margin: 0px;
+}
+.hero-text {
+    margin-bottom: 20px;
 }
 .hero-image {
     width: 400px;
@@ -55,20 +61,26 @@ ul {
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
-    margin: 16px 0px;
-    padding: 10px 16px;
-    border: none;
+    padding: 6px 30px;
     border-radius: 8px;
+    
+}
+
+.hero-button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
 }
 
 .info-title {
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .info-cards {
     display: flex;
     gap: 24px;
     text-align: center;
+    font-weight: lighter;
     padding: 20px 200px;
     justify-content: center;
 }
@@ -89,6 +101,47 @@ ul {
     padding-top: 8px;
 }
 
+
+.blue-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin: 56px 100px;
+    padding: 36px 80px;
+    border-radius: 8px;
+
+}
+.action-header {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-style: solid;
+    border-color: #f9faf8;
+    border-radius: 8px;
+    padding: 6px 30px;
+    flex-shrink: 0;
+
+}
+.footer-button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-weight: lighter;
+    padding: 26px;
+}
 a {
     text-decoration: none;
     color: #e5e7eb;
